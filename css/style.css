@@ -1,0 +1,32 @@
+*{ margin:0; padding:0; width: 100%;}
+body { 
+	font-size:14px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration:none; 
+}
+ol,ul,li { 
+	list-style:none; 
+}
+
+.star{
+	margin: 0 auto;
+	width: 550px;
+	
+}
+ul{
+	width: 200px;
+	height: 20px;
+}
+li{
+	float: left;
+	width: 19px;
+	height: 19px;
+	background: url(../img/star.png) top left no-repeat;
+	padding-right: 4px;
+}
+li:hover,.act{
+	background-position: bottom left;
+}
+p{
+	clear: both;
+}
